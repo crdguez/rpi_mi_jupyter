@@ -1,16 +1,17 @@
-# rpi_mi_python
-docker python image for rpi
+# rpi_mi_jupyter
 
-In order to build in Dockerhub: https://github.com/docker/hub-feedback/issues/1261
+Imagen docker para raspberry pi con jupyter, pandas, numpy, scipy, matplotlin y sympy
+
+Esta imagen está basada en esta otra: [https://github.com/andresvidal/jupyter-armv7l](https://github.com/andresvidal/jupyter-armv7)
 
 
-#fuente: https://github.com/movalex/rpi-jupyter-conda
-fuente: https://github.com/andresvidal/jupyter-armv7l
 
-# Crear la imagen
-# Ir a la carpeta donde está el Dockerfile
 
-docker build -t crdguez/mi_rpi_jupyter .
+## crear la imagen a partir del Dockerfile
+
+    git clone https://github.com/crdguez/rpi_mi_jupyter.git
+    cd rpi_mi_jupyter
+    docker build -t <your hub>/rpi_mi_jupyter .
 
 # Crear contenedor a partir de la imagen
 
