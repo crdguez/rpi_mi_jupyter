@@ -9,8 +9,8 @@ Imagen docker para raspberry pi con:
 	- matplotlib
 	- sympy
 
-Esta imagen está basada en esta otra: [https://github.com/andresvidal/jupyter-armv7l](https://github.com/andresvidal/jupyter-armv7)
-
+Esta imagen está basada en esta otra: [https://github.com/andresvidal/jupyter-armv7l](https://github.com/andresvidal/jupyter-armv7l)
+											
 ## Instrucciones
 
 ### Crear contenedor a partir de la imagen
