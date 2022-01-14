@@ -1,6 +1,6 @@
 #Basado en: https://github.com/andresvidal/jupyter-armv7 
 
-FROM arm32v7/python:3.8
+FROM arm32v7/python:3.10
 LABEL created_by=https://github.com/crdguez/rpi_mi_jupyter
 ARG wheelhouse=https://github.com/crdguez/rpi_mi_jupyter/raw/master/wheelhouse
 
